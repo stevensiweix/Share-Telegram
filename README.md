@@ -25,3 +25,9 @@ https://api.telegram.org/bot< YOUR_BOT_TOKEN >/setWebhook?url=<要將資料回�
 ```
 
 8. config.php 注意相關資訊。
+9. 網址的直接綁定。
+```
+/start=<?php echo $admin_info['code'];?> 為必要因點選後，即回拋網址，馬上抓取使用者主鍵或Code進行綁定。
+
+<a href="https://t.me/<?php echo $telegramnotify_api['main1'] ?>/?start=<?php echo $admin_info['code'];?>" target="_blank" class="btn btn-success btn-xs">Telegram Notify 通知綁定</a>
+```
