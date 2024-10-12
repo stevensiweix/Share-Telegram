@@ -41,6 +41,11 @@ Telegram Bot 必須綁定 Webhook，才能接收用戶的訊息。Webhook 的設
    https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/setWebhook?url=https://yourdomain.com/telegram-webhook
    ```
 
+3. 查尋：
+   ```
+   https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getWebhookInfo
+   ```
+
 ## 步驟 4: 設定通知綁定按鈕
 
 在系統中新增綁定通知的按鈕，讓用戶點擊後能立即綁定到你的 Telegram Bot。
